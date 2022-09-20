@@ -1,0 +1,34 @@
+name: hello_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-44.1.beta<3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # state management
+  flutter_bloc: 8.1.1
+  flutter_hooks: 0.18.5+1
+
+
+  # freezed
+  freezed: 2.1.0+1
+  freezed_annotation: 2.1.0
+
+  # build_runner
+  build_runner: 2.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 2.0.0
+
+flutter:
+  uses-material-design: true
